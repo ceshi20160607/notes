@@ -17,20 +17,20 @@ module.exports = {
 
   // vssue 评论插件
   plugins: [
-    [
-      "vuepress-plugin-vssue-global",
-      {
-        platform: "github",
-        title: "[Comment]<%- frontmatter.title %>",
-        needComments: true,
-        // 其他的 Vssue 配置
-        autoCreateIssue: true,
-        clientId: "71d0e9c687c6e2146b70",
-        clientSecret: "6c641f8c31488cb98f3241beec157960de877eb2",
-        owner: "ceshi20160607",
-        repo: "notes",
-      },
-    ],
+    // [
+    //   "vuepress-plugin-vssue-global",
+    //   {
+    //     platform: "github",
+    //     title: "[Comment]<%- frontmatter.title %>",
+    //     needComments: true,
+    //     // 其他的 Vssue 配置
+    //     autoCreateIssue: true,
+    //     clientId: "71d0e9c687c6e2146b70",
+    //     clientSecret: "6c641f8c31488cb98f3241beec157960de877eb2",
+    //     owner: "ceshi20160607",
+    //     repo: "notes",
+    //   },
+    // ],
     // 增强 markdown
     [
       "md-enhance", {
